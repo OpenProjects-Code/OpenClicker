@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="BackgroundBrush" Color="#05090D"/>
+    <SolidColorBrush x:Key="PanelBrush" Color="#0B141C"/>
+    <SolidColorBrush x:Key="ControlBrush" Color="#101D27"/>
+    <SolidColorBrush x:Key="ControlHoverBrush" Color="#18303F"/>
+
+    <SolidColorBrush x:Key="AccentBrush" Color="#38BDF8"/>
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="#7DD3FC"/>
+    <SolidColorBrush x:Key="AccentDarkBrush" Color="#0E7490"/>
+
+    <SolidColorBrush x:Key="TextBrush" Color="#F2FAFF"/>
+    <SolidColorBrush x:Key="SecondaryTextBrush" Color="#9DB3C0"/>
+
+    <SolidColorBrush x:Key="BorderBrush" Color="#1F4558"/>
+
+</ResourceDictionary>

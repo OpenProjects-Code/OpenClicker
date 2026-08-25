@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+
+    <ApplicationIcon>OpenClicker.ico</ApplicationIcon>
+
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
+    <DebugType>None</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+
+  <!-- ============================================================ -->
+  <!-- ICON -->
+  <!-- ============================================================ -->
+
+  <ItemGroup>
+
+    <Content Include="OpenClicker.ico" />
+
+  </ItemGroup>
+
+
+  <!-- ============================================================ -->
+  <!-- EMBEDDED THEMES -->
+  <!-- ============================================================ -->
+
+  <ItemGroup>
+
+    <EmbeddedResource Include="Themes\GoldTheme.xaml" />
+
+    <EmbeddedResource Include="Themes\NeonTheme.xaml" />
+
+    <EmbeddedResource Include="Themes\SecretTheme.xaml" />
+
+    <EmbeddedResource Include="Themes\WhiteTheme.xaml" />
+
+    <!-- NEW THEMES -->
+
+    <EmbeddedResource Include="Themes\CrimsonTheme.xaml" />
+
+    <EmbeddedResource Include="Themes\VioletTheme.xaml" />
+
+    <EmbeddedResource Include="Themes\ArcticTheme.xaml" />
+
+  </ItemGroup>
+
+</Project>

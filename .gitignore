@@ -1,0 +1,12 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
