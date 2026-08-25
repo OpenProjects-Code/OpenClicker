@@ -1,3 +1,5 @@
+@"
+# Visual Studio
 .vs/
 bin/
 obj/
@@ -5,8 +7,15 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Rider
 .idea/
+
+# VS Code
 .vscode/
+
+# OS files
 .DS_Store
 Thumbs.db
 desktop.ini
+"@ | Set-Content .gitignore
